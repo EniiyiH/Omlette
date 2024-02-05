@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    width:100%;
+    margin: 2rem;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+:root {
+    --heading-font: "Young Serif", serif;
+    --primary-font: "Outfit", sans-serif;
+
+    /* primary colors */
+
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+
+    /* secondary colors  */
+
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+
+    
+  }
+
+h1{
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--Dark-Charcoal);
+    font-family: var(--heading-font);
+}
+
+h3{
+    font-size: 2rem;
+    /* font-weight: 400 !important; */
+    font-weight: lighter !important;
+    font-family: var(--heading-font);
+    color: var(--Nutmeg);
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--Dark-Raspberry);
+    font-family: var(--primary-font);
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--Wenge-Brown);
+    font-family: var(--primary-font);
+}
+
+.wrapper{
+    border-radius: 1rem;
+    background-color: #fff;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    
+}
+.picture{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+    
+}   
+.picture img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.text--information{
+max-width: 100%;
+padding: .5rem;
+margin-bottom: 2rem;
+}
+
+.preparation-time{
+    width: 100%;
+    background-color:hsl(330, 100%, 98%);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+.preparation-time h4{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.preparation-time ul{
+    margin-left: 1.8rem;
+    color: var(--Dark-Raspberry);
+}
+.preparation-time ul li{
+    font-family: var(--primary-font);
+}
+.preparation-time ul li b{
+    font-weight: 600;
+    color: var(--Wenge-Brown);
+}
+.preparation-time ul li span{
+    color: var(--Wenge-Brown);
+}
+.Ingredients{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--Light-Grey);
+    margin-bottom: 2rem;
+}
+.Ingredients ul{
+    margin-left: 1.8rem;
+    font-family: var(--primary-font);
+}
+.Ingredients ul li span{
+    color: var(--Wenge-Brown);
+}
+.Ingredients ul li {
+    color: var(--Nutmeg);
+}
+.instructions{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--Light-Grey);
+    margin-bottom: 2rem;
+}
+.instructions h3{
+    margin-bottom: 1rem;
+}
+.instructions ol{
+    margin-left: 1.8rem;
+    font-family: var(--primary-font);
+}
+.instructions ol li{
+    color: var(--Nutmeg);
+    padding-bottom: .5rem;
+}
+.instructions ol li b{
+    color: var(--Wenge-Brown);
+    padding: .25rem;
+}
+.instructions ol li span{
+    color: var(--Wenge-Brown);
+}
+.nutrition{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--Light-Grey);
+    margin-bottom: 2rem;
+}
+.nutrition-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--primary-font);
+}
+.nutrition-table tbody tr td{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--Wenge-Brown);
+    font-family: var(--primary-font);
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+}
+.line{
+    border-bottom: 1px solid var(--Light-Grey);
+}
+.nutmeg{
+    color: var(--Nutmeg)!important; 
+    font-weight: 600 !important;
+}
